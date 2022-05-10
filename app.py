@@ -1,11 +1,19 @@
-from flask import Flask
-
+from re import X
+from flask import Flask, render_template
+from music import music
 
 app = Flask(__name__)
 
-@app.route('/hello/', methods=['GET', 'POST'])
-def welcome():
-    return "Hello World!"
-    
+@app.route('/music', methods=['GET', 'POST'])
+
+try:
+  def prog():
+    return render_template('input.html')
+    music()
+    print(X)
+  
+except:
+  print("O serviço não está funcionando, porém segue em desenvolvimento")
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=105)
+    app.run(host='127.8.8.0', port=105)
