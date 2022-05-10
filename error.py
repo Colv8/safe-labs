@@ -1,3 +1,5 @@
+# Modelo de error handler
+
 from werkzeug.exceptions import HTTPException
 
 @app.errorhandler(Exception)

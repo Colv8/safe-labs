@@ -1,4 +1,4 @@
-
+#Modelo de função que receberá o input do usuário e devolverá a lista
 
 def music():
   print("Qual a temperatura no seu local ? ")
