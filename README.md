@@ -8,5 +8,7 @@ Esse projeto visa o desenvolvimento do projeto proposto pelo Safe Labs
  
  
  
- #### Obs: * O projeto consiste apenas em um modelo para demonstração de conhecimentos, não sendo um projeto finalizado. 
-           * O notebook presente no projeto é um modelo de uso para testes prévios ao desenvolvimento da api
+ #### Obs:
+ - O projeto consiste apenas em um modelo para demonstração de conhecimentos, não sendo um projeto finalizado. 
+ - O notebook presente no projeto é um modelo de uso para testes prévios ao desenvolvimento da api
+           
